@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Business Enquiry Website</title>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzmEAExuqtuICrrLsHZvEFUyZVlbFHZ_uNEL0LZdMV3g&s=10" type="image/x-icon">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="logo">MyBusiness</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+
+    <section  id="home" class="hero" >
+
+        <h1 >Welcome to Our Business</h1>
+
+        <p>We provide professional solutions for your business.</p>
+
+        <a href="#contact" class="btn">Send Enquiry</a>
+
+       
+
+    </section>
+
+   
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Us</h2>
+
+        <p>
+            We believe our employees are the foundation of our success. We provide opportunities for talented, motivated, and dedicated individuals to grow their careers with us.
+           </p>
+    </section>
+   
+
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <h2>Employemnet Opportunities</h2>
+
+        <div class="services">
+            <div class="service-card">
+                <h3>Manufacturing</h3>
+                <p>High quality product Manufacturing</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Quality cotrol</h3>
+                <p>Production inspection and quality test and at every stage</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Production planning</h3>
+                <p>efficient production scheduling and process management</p>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Form -->
+    <section id="contact" class="section">
+        <h2>Send Your Enquiry</h2>
+
+        <form id="enquiryForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+            >
+
+            <input
+                type="tel"
+                id="phone"
+                placeholder="Enter your phone number"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <textarea
+                id="message"
+                placeholder="Enter your enquiry"
+                required
+            ></textarea>
+
+            <button type="submit">
+                Submit Enquiry
+            </button>
+
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 MyBusiness. All Rights Reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
